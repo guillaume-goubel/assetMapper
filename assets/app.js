@@ -8,3 +8,9 @@ import './bootstrap.js';
 import './styles/app.css'
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉')
+
+// import Duck from './js/duck.js';
+// const duck = new Duck('Waddles');
+// duck.quack();
+
+
