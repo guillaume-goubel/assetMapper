@@ -1,0 +1,8 @@
+.box{
+  background-color: chartreuse;
+
+  &.active {
+    background-color: var(--color-primary);
+  }
+
+}

@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Changer la couleur au survol{% endblock %}
+{% block title %}Changer la couleur au click{% endblock %}
 
 {% block body %}
 
@@ -19,5 +19,5 @@
 {% endblock %}
 
 {% block importmap %}
-    {{ importmap(['app', 'container', 'change-color-hover-css']) }}
+  {{ importmap(['app', 'change-color-hover-js', 'change-size-js']) }}
 {% endblock %}

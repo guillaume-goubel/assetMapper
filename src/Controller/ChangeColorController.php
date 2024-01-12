@@ -19,5 +19,11 @@ class ChangeColorController extends AbstractController
     {
         return $this->render('pages/change-color-hover-js.html.twig');
     }
+
+    #[Route('/change-size-click-js', name: 'change_size_click_js')]
+    public function changeSizeClickJs():Response
+    {
+        return $this->render('pages/change-size-click-js.html.twig');
+    }
 }
 

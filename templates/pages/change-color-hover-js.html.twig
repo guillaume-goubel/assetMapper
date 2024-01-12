@@ -18,8 +18,7 @@
 
 {% endblock %}
 
-{% block javascripts %}
-    {% block importmap %}
-        {{ importmap(['app', 'container', 'change-color-hover']) }}
-    {% endblock %}
+{% block importmap %}
+  {# ici le css du container est importé dans le fichier ts "change-color-js" #}
+  {{ importmap(['app', 'change-color-hover-js', 'change-color-js']) }}
 {% endblock %}
