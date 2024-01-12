@@ -1,0 +1,7 @@
+.box{
+    background-color: chartreuse;
+
+    &:hover {
+		background-color: var(--color-primary);
+	}
+}
